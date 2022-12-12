@@ -4,9 +4,35 @@
         color: $gold_dark
 
 .banner_home
-    color:#084137 
+    color: #084137
     h1
         font-family: 'Montserrat', sans-serif
-        font-family: 'Noto Serif TC', serif    
+        font-family: 'Noto Serif TC', serif
     p
         line-height: 1.5
+
+.news_threeCard
+    .col
+        max-width: 300px
+    .card-body
+        background-color: #e8fdf7
+    h5
+        font-family: 'Montserrat', sans-serif
+        font-family: 'Noto Serif TC', serif
+        font-size: 24px
+    small
+        color: #917661
+        font-size: 14px
+        font-weight: bold
+    p
+        line-height: 1.5
+        font-size: 20px
+
+@include maxpad()
+// .news_threeCard
+//     .col
+        // max-width: 500px
+
+.carousel-item
+    background-color: #daede7
+    height: 200px

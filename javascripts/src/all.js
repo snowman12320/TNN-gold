@@ -2,10 +2,14 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 20) {
-      $(".wrap").css("background-color", "rgb(252, 252, 252, 0.5");
+      $(".wrap").css("background-color", "rgb(252, 252, 252, 0.8");
+      $(".wrap a").css("color", "rgb(0,0,0");
+      $(".wrap button").css("color", "rgb(0,0,0");
       $(".wrap .column").css("backdrop-filter", "blur(15px"); // 尾雙冒號放括號內 / 會取代掉子曾樣式 故加回去
     } else {
       $("#nav_topTag").css("background-color", "rgb(252, 252, 252, 0)");
+      $(".wrap .index_navbarMain > a").css("color", "rgb(255,255,255");
+      $(".wrap button").css("color", "rgb(255,255,255");
     }
   });
 });

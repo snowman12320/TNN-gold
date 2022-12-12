@@ -18593,6 +18593,9 @@ h3, .h3 {
 .wrap:hover {
   background-color: rgba(252, 252, 252, 0.5) !important;
 }
+.wrap:hover a, .wrap:hover button {
+  color: black;
+}
 
 .index_navbar {
   overflow: hidden;
@@ -18732,6 +18735,32 @@ h3, .h3 {
 }
 .banner_home p {
   line-height: 1.5;
+}
+
+.news_threeCard .col {
+  max-width: 300px;
+}
+.news_threeCard .card-body {
+  background-color: #e8fdf7;
+}
+.news_threeCard h5, .news_threeCard .h5 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif TC", serif;
+  font-size: 24px;
+}
+.news_threeCard small, .news_threeCard .small {
+  color: #917661;
+  font-size: 14px;
+  font-weight: bold;
+}
+.news_threeCard p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.carousel-item {
+  background-color: #daede7;
+  height: 200px;
 }
 
 * {

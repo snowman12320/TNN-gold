@@ -9,6 +9,10 @@
         background-color: rgb(252, 252, 252, 0.5) !important;
         // backdrop-filter: blur(15px) !important;
     }
+    &:hover a,
+    &:hover button {
+        color: black;
+    }
 }
 .index_navbar {
     overflow: hidden;
@@ -79,10 +83,10 @@
     display: block;
 }
 /* Create three equal columns that floats next to each other */
-.index_dropdown_content .column { 
+.index_dropdown_content .column {
     float: left;
     width: 20%;
-    background-color: rgb(255, 255, 255, 0.5);  
+    background-color: rgb(255, 255, 255, 0.5);
     backdrop-filter: blur(15px) !important;
     text-align: center;
     padding: 10px 20px;
@@ -98,10 +102,6 @@
     text-decoration: none;
     display: block;
     text-align: center;
-}
-
-.index_dropdown_content .column a:hover {
-    // background-color: #ddd;
 }
 
 /* Clear floats after the columns */
