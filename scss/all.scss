@@ -65,7 +65,7 @@
 @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"); //flaticon
 @import url("https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"); //flaticon
 
-@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap"); //字型
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Serif+TC:wght@500&display=swap"); //字型
 @import url("https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"); //swiper
 @import url("https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/themes/splide-skyblue.min.css"); //splide
 @import url("https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/splide.min.css"); //splide
@@ -81,9 +81,10 @@
 @import "./components/_hover.scss";
 // pages
 @import "./pages/layout";
+@import "./pages/index";
 
 * {
-  // box-sizing: border-box !important;
+  box-sizing: border-box !important;
   text-decoration: none !important;
   list-style: none !important;
   // font-family: "Helvetica Neue" !important;

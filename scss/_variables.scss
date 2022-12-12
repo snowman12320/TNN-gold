@@ -51,6 +51,7 @@ $qoblue: #2cbbf5;
 $fb: #0d6efd;
 $line: #06c152;//#3cd52e;
 $min_nav: #999;
+$gold_dark: darkred;
 
 // scss-docs-end color-variables
 
@@ -413,7 +414,10 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  30:30%,
+  40:40%,
   50: 50%,
+  70:70%,
   100: 100%,
 ) !default;
 // scss-docs-end position-map

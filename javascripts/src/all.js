@@ -2,7 +2,8 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 20) {
-      $("#nav_topTag").css("background-color", "rgb(252, 252, 252, 0.3");
+      $(".wrap").css("background-color", "rgb(252, 252, 252, 0.5");
+      $(".wrap .column").css("backdrop-filter", "blur(15px"); // 尾雙冒號放括號內 / 會取代掉子曾樣式 故加回去
     } else {
       $("#nav_topTag").css("background-color", "rgb(252, 252, 252, 0)");
     }
