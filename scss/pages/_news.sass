@@ -1,0 +1,43 @@
+
+.news_banner
+    color: #084137
+    h1
+        font-family: 'Montserrat', sans-serif
+        font-family: 'Noto Serif TC', serif
+    p
+        line-height: 1.5
+
+.news_threeCard
+    .col
+        max-width: 300px
+    .card-body
+        background-color: #e8fdf7
+    h5
+        font-family: 'Montserrat', sans-serif
+        font-family: 'Noto Serif TC', serif
+        font-size: 24px
+    small
+        color: #917661
+        font-size: 14px
+        font-weight: bold
+    p
+        line-height: 1.5
+        font-size: 20px
+
+@include maxpad()
+// .news_threeCard
+//     .col
+        // max-width: 500px
+
+// animated
+//滾動出現的三大區塊
+.animated
+    opacity: 0
+    transition: all 1.5s
+//   隱藏先下推 
+    // transform: translateY(50px) //style加才有用
+
+.fadeIn
+    opacity: 1
+//   出現再校正回歸
+    // transform: translate(0px, 0px) !important //直接用js加入css

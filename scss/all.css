@@ -18594,7 +18594,7 @@ h3, .h3 {
   background-color: rgba(252, 252, 252, 0.5) !important;
 }
 .wrap:hover a, .wrap:hover button {
-  color: black;
+  color: black !important;
 }
 
 .index_navbar {
@@ -18723,7 +18723,7 @@ h3, .h3 {
   background: #daede7 !important;
 }
 .hvr-icon-forward:hover {
-  color: darkred;
+  color: darkred !important;
 }
 
 .banner_home {
@@ -18789,6 +18789,49 @@ h3, .h3 {
 }
 .banner_weather h3, .banner_weather .h3 {
   font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif TC", serif;
+}
+
+.news_banner {
+  color: #084137;
+}
+.news_banner h1, .news_banner .h1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif TC", serif;
+}
+.news_banner p {
+  line-height: 1.5;
+}
+
+.news_threeCard .col {
+  max-width: 300px;
+}
+.news_threeCard .card-body {
+  background-color: #e8fdf7;
+}
+.news_threeCard h5, .news_threeCard .h5 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif TC", serif;
+  font-size: 24px;
+}
+.news_threeCard small, .news_threeCard .small {
+  color: #917661;
+  font-size: 14px;
+  font-weight: bold;
+}
+.news_threeCard p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.animated {
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.fadeIn {
+  opacity: 1;
 }
 
 * {
