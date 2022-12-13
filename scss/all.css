@@ -18758,9 +18758,37 @@ h3, .h3 {
   font-size: 20px;
 }
 
-.carousel-item {
+.banner_comment {
+  color: #084137;
+}
+.banner_comment h1, .banner_comment .h1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif TC", serif;
+}
+.banner_comment .carousel .carousel-item {
   background-color: #daede7;
-  height: 200px;
+  height: 240px;
+}
+.banner_comment .carousel .carousel-item p, .banner_comment .carousel .carousel-item small, .banner_comment .carousel .carousel-item .small {
+  padding-top: 30px;
+  text-align: left;
+  color: #000;
+}
+.banner_comment .carousel .carousel-item i {
+  padding-left: 10px;
+}
+
+.banner_weather div {
+  color: #daede7;
+}
+.banner_weather div .active {
+  color: darkred;
+}
+.banner_weather div .active div {
+  color: darkred;
+}
+.banner_weather h3, .banner_weather .h3 {
+  font-size: 60px;
 }
 
 * {

@@ -204,7 +204,7 @@
       />
       <div class="container">
         <div
-          class="row row-cols-sm-3 row-cols-1 my-2 justify-content-center g-5"
+          class="row row-cols-md-3 row-cols-1 my-2 justify-content-center g-5"
         >
           <div class="col">
             <div class="">
@@ -288,17 +288,34 @@
         </a>
       </div>
     </section>
-    <div class="banner_home" style="background-color: #daede7; height: 400px">
+    <div
+      class="banner_comment"
+      style="background-color: #daede7; height: 400px"
+    >
       <div class="container py-5 text-center" style="width: 700px">
         <h1 class="display-6">評價</h1>
+        <img
+          src="./images/company/leaf.png"
+          class="d-block mx-auto"
+          height="50"
+          alt=""
+        />
+
         <!--  -->
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
           data-bs-ride="carousel"
         >
-          <div class="carousel-indicators">
+          <div class="carousel-indicators mb-0">
             <button
+              style="
+                width: 10px;
+                height: 5px;
+                z-index: 1;
+                border-radius: 50%;
+                padding: 5px 0px;
+              "
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide-to="0"
@@ -307,12 +324,26 @@
               aria-label="Slide 1"
             ></button>
             <button
+              style="
+                width: 10px;
+                height: 5px;
+                z-index: 1;
+                border-radius: 50%;
+                padding: 5px 0px;
+              "
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
             <button
+              style="
+                width: 10px;
+                height: 5px;
+                z-index: 1;
+                border-radius: 50%;
+                padding: 5px 0px;
+              "
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide-to="2"
@@ -321,46 +352,67 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <!-- <img
-                src="./images/custom/10260528-1920x1080r.jpg"
-                class="d-block w-100"
-                alt="..."
-              /> -->
-              <div class="carousel-caption d-block top-0">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                  Some representative placeholder content for the first slide.
-                  Some representative placeholder content for the first slide.
-                  Some representative placeholder content for the first slide.
-                  Some representative placeholder content for the first slide.
+              <div class="carousel-caption d-block top-0 pt-0">
+                <p>“房間還有大屏幕可以看電視，設備非常好！”</p>
+                <small class="text-end mb-0 pb-0"> - 志明 </small>
+                <small class="text-end mt-0 pt-0"> (booking.com) </small>
+                <p class="text-center gap-5 pt-0">
+                  <i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i>
                 </p>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="carousel-caption d-none d-md-block top-0">
-                <h5>Second slide label</h5>
+              <div class="carousel-caption d-none d-md-block top-0 pt-0">
                 <p>
-                  Some representative placeholder content for the second slide.
+                  很棒的住宿經驗~
+                  實際就與照片上一模一樣，設計漂亮溫馨，人員服務也很好很專業!
+                  雖然地點有點偏，但環境真的很棒很安靜，也有地方可停車!
+                </p>
+                <small class="text-end mb-0 pb-0"> - 志明 </small>
+                <small class="text-end mt-0 pt-0"> (booking.com) </small>
+                <p class="text-center gap-5 pt-0">
+                  <i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i>
                 </p>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="carousel-caption d-none d-md-block top-0">
-                <h5>Third slide label</h5>
+              <div class="carousel-caption d-none d-md-block top-0 pt-0">
                 <p>
-                  Some representative placeholder content for the third slide.
+                  房間明亮乾淨，整面落地窗，風景超好!
+                  人員態度親切和善，早餐、下午茶都相當好吃，看得出很用心在經營!
+                  推薦!!
+                </p>
+                <small class="text-end mb-0 pb-0"> - 志明 </small>
+                <small class="text-end mt-0 pt-0"> (booking.com) </small>
+                <p class="text-center gap-5 pt-0">
+                  <i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i
+                  ><i class="fa fa-star" aria-hidden="true"></i>
                 </p>
               </div>
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev fs-1"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span
+              style="width: 100px; height: 100px"
+              class="carousel-control-prev-icon me-3"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
@@ -369,13 +421,84 @@
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span
+              style="width: 100px; height: 100px"
+              class="carousel-control-next-icon ms-3"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
         <!--  -->
       </div>
     </div>
+    <section class="banner_weather py-5">
+      <h1 class="display-6 mt-4">當地氣象</h1>
+      <img
+        src="./images/company/leaf.png"
+        class="d-block mx-auto"
+        height="50"
+        alt=""
+      />
+      <div class="d-flex gap-5 justify-content-center mt-4">
+        <div>
+          <div class="d-flex align-items-center">
+            <h3 class="d-inline-block p-0">18</h3>
+            <small class="d-inline-block p-0">℃</small>
+          </div>
+          <small class="pt-0">多雲</small>
+          <p class="pt-0">Mon</p>
+        </div>
+        <div>
+          <div class="d-flex align-items-center">
+            <h3 class="d-inline-block p-0">18</h3>
+            <small class="d-inline-block p-0">℃</small>
+          </div>
+          <small class="pt-0">多雲</small>
+          <p class="pt-0">Mon</p>
+        </div>
+        <div>
+          <div class="d-flex align-items-center">
+            <h3 class="d-inline-block p-0">18</h3>
+            <small class="d-inline-block p-0">℃</small>
+          </div>
+          <small class="pt-0">多雲</small>
+          <p class="pt-0">Mon</p>
+        </div>
+        <div class="active">
+          <div class="d-flex align-items-center">
+            <h3 class="d-inline-block p-0">18</h3>
+            <small class="d-inline-block p-0">℃</small>
+          </div>
+          <small class="pt-0">多雲</small>
+          <p class="pt-0">Mon</p>
+        </div>
+        <div class="">
+          <div class="d-flex align-items-center">
+            <h3 class="d-inline-block p-0">18</h3>
+            <small class="d-inline-block p-0">℃</small>
+          </div>
+          <small class="pt-0">多雲</small>
+          <p class="pt-0">Mon</p>
+        </div>
+        <div>
+          <div class="d-flex align-items-center">
+            <h3 class="d-inline-block p-0">18</h3>
+            <small class="d-inline-block p-0">℃</small>
+          </div>
+          <small class="pt-0">多雲</small>
+          <p class="pt-0">Mon</p>
+        </div>
+        <div>
+          <div class="d-flex align-items-center">
+            <h3 class="d-inline-block p-0">18</h3>
+            <small class="d-inline-block p-0">℃</small>
+          </div>
+          <small class="pt-0">多雲</small>
+          <p class="pt-0">Mon</p>
+        </div>
+      </div>
+    </section>
 
     <!--  -->
     <div w3-include-html="footer.html"></div>
